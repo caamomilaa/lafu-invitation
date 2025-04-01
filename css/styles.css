@@ -21,4 +21,36 @@ nav ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  font-weight: 800;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.button{
+  width: 150px;
+  height: 70px;
+  background-color: pink;
+  border: none;
+  border-radius: 16px;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  margin: 0 0 20px 0
+}
+.invitation{
+  display: none;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  background-image: radial-gradient(rgb(89, 79, 182) 40%, rgb(197, 66, 116)) ;
+  padding: 50px;
+  justify-content: center;
+}
+.show {
+  display: flex;
 }
